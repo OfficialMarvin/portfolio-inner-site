@@ -51,7 +51,7 @@ const Contact: React.FC<ContactProps> = (props) => {
     const handleSubmit = useCallback(() => {
         if (isFormValid) {
             setIsLoading(true);
-            fetch('https://henryheffernan.com/api/send-email', {
+            fetch('https://marvinjakobs.com/api/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -111,30 +111,30 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <div style={styles.socials}>
                     <SocialBox
                         icon={ghIcon}
-                        link={'https://github.com/henryjeff'}
+                        link={'https://github.com/marvinjakobs'}
                     />
                     <SocialBox
                         icon={inIcon}
-                        link={'https://www.linkedin.com/in/henryheffernan/'}
+                        link={'https://www.linkedin.com/in/marvinjakobs/'}
                     />
                     <SocialBox
                         icon={twitterIcon}
-                        link={'https://twitter.com/henryheffernan'}
+                        link={'https://twitter.com/marvinjakobs'}
                     />
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    I am currently employed, however if you have any
-                    opportunities, feel free to reach out - I would love to
-                    chat! You can reach me via my personal email, or fill out
-                    the form below!
+                    I am currently seeking full-time opportunities in data science.
+                    If you have any opportunities or would like to discuss potential
+                    collaborations, please feel free to reach out. You can contact me
+                    via my personal email or by filling out the form below.
                 </p>
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:marvinjakobs@gmail.com">
+                        marvinjakobs@gmail.com
                     </a>
                 </p>
 
@@ -221,79 +221,3 @@ const Contact: React.FC<ContactProps> = (props) => {
                                         {formMessage
                                             ? `${formMessage}`
                                             : ' All messages get forwarded straight to my personal email'}
-                                    </sub>
-                                </b>
-                            </p>
-                            <p>
-                                <sub>
-                                    {!isFormValid ? (
-                                        <span>
-                                            <b style={styles.star}>*</b> =
-                                            required
-                                        </span>
-                                    ) : (
-                                        '\xa0'
-                                    )}
-                                </sub>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ResumeDownload altText="Need a copy of my Resume?" />
-        </div>
-    );
-};
-
-const styles: StyleSheetCSS = {
-    form: {
-        flexDirection: 'column',
-        marginTop: 32,
-    },
-    formItem: {
-        marginTop: 4,
-        marginBottom: 16,
-    },
-    socialImage: {
-        width: 36,
-        height: 36,
-    },
-    buttons: {
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    },
-    formInfo: {
-        textAlign: 'right',
-
-        flexDirection: 'column',
-        alignItems: 'flex-end',
-        paddingLeft: 24,
-    },
-    star: {
-        paddingRight: 4,
-        color: 'red',
-    },
-    button: {
-        minWidth: 184,
-        height: 32,
-    },
-    header: {
-        alignItems: 'flex-end',
-        justifyContent: 'space-between',
-    },
-    socials: {
-        marginBottom: 16,
-        justifyContent: 'flex-end',
-    },
-    social: {
-        width: 4,
-        height: 4,
-        // borderRadius: 1000,
-
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginLeft: 8,
-    },
-};
-
-export default Contact;

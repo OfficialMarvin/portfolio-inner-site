@@ -12,13 +12,13 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Marvin Jakobs</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a data scientist who recently graduated from The Pennsylvania State University
+                    with my B.S. in Data Sciences in May 2024. I'm currently seeking full-time opportunities 
+                    in the field of data science.
                 </p>
                 <br />
                 <p>
@@ -27,8 +27,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:marvinjakobs@gmail.com">
+                        marvinjakobs@gmail.com
                     </a>
                 </p>
             </div>
@@ -37,14 +37,10 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    From a young age, I have been fascinated by the power of data and its ability to drive
+                    informed decision-making. This fascination led me to pursue a degree in Data Sciences at
+                    The Pennsylvania State University. Throughout my academic journey, I have gained a strong
+                    foundation in statistical analysis, machine learning, and data visualization.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -58,32 +54,20 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                    During my time at Penn State, I worked on various projects that allowed me to apply my
+                    data science skills to real-world problems. I collaborated with a team of fellow students
+                    to develop predictive models for customer churn analysis, which helped businesses make
+                    data-driven decisions to retain their customers. I also had the opportunity to intern at
+                    a leading technology company, where I worked on optimizing their recommendation algorithms
+                    to enhance user experience.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    Now, as a recent graduate, I am excited to embark on my professional journey as a data
+                    scientist. I am eager to contribute my skills and knowledge to an organization that values
+                    data-driven insights and innovation. I am particularly interested in opportunities that
+                    allow me to work on complex data problems, develop scalable solutions, and make a meaningful
+                    impact through data-driven decision-making.
                 </p>
                 <br />
                 <br />
@@ -99,30 +83,25 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
-                            playing video games.
+                            Beyond data science, I have a passion for continuous learning and exploring new
+                            technologies. In my free time, I enjoy participating in online data science
+                            competitions and hackathons, which allow me to sharpen my skills and stay
+                            up-to-date with the latest trends in the field. I also love to read research
+                            papers and attend industry conferences to expand my knowledge and network with
+                            like-minded professionals.
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                            When I'm not immersed in data, I enjoy hiking, photography, and playing the
+                            guitar. These hobbies help me maintain a healthy work-life balance and bring
+                            a creative perspective to my analytical mindset.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me, April 2024
                             </sub>
                         </p>
                     </div>
@@ -130,28 +109,12 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <br />
                 <p>
-                    Thanks for reading about me! I hope that you enjoy exploring
-                    the rest of my portfolio website and everything it has to
-                    offer. If you find the easter egg make sure to let me know
-                    on twitter{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://twitter.com/henryheffernan"
-                    >
-                        @henryheffernan
-                    </a>{' '}
-                    Good luck and have fun!
-                </p>
-                <br />
-                <p>
-                    If you have any questions or comments I would love to hear
-                    them. You can reach me through the{' '}
-                    <Link to="/contact">contact page</Link> or shoot me an email
-                    at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
-                    </a>
+                    Thank you for taking the time to learn a bit about me! I hope you enjoy exploring my
+                    portfolio website and getting a glimpse of my skills and experiences. If you have any
+                    questions or would like to discuss potential opportunities, please feel free to reach
+                    out to me through the <Link to="/contact">contact page</Link> or send me an email at{' '}
+                    <a href="mailto:marvinjakobs@gmail.com">marvinjakobs@gmail.com</a>. I look forward to
+                    connecting with you!
                 </p>
             </div>
         </div>

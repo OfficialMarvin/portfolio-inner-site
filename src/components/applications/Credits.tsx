@@ -8,12 +8,16 @@ export interface CreditsProps extends WindowAppProps {}
 const CREDITS = [
     {
         title: 'Engineering & Design',
-        rows: [['Henry Heffernan', 'All']],
+        rows: [
+            ['Marvin Jakobs', 'All'],
+            ['Claude (Anthropic)', 'AI Assistance'],
+            ['Henry Heffernan', 'Base Repo']
+        ],
     },
     {
         title: 'Modeling & Texturing',
         rows: [
-            ['Henry Heffernan', 'Texturing, Composition, & UV'],
+            ['Marvin Jakobs', 'Texturing, Composition, & UV'],
             ['Mickael Boitte', 'Computer Model'],
             ['Sean Nicolas', 'Environment Models'],
         ],
@@ -21,7 +25,7 @@ const CREDITS = [
     {
         title: 'Sound Design',
         rows: [
-            ['Henry Heffernan', 'Mixing, Composition, & Foley'],
+            ['Marvin Jakobs', 'Mixing, Composition, & Foley'],
             ['Sound Cassette', 'Office Ambience'],
             ['Windows 95 Startup Sound', 'Microsoft'],
         ],
@@ -78,7 +82,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2022 Henry Heffernan'}
+            bottomLeftText={'© Copyright 2023 Marvin Jakobs'}
         >
             <div
                 onMouseDown={nextSlide}
@@ -86,7 +90,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>henryheffernan.com, 2022</p>
+                <p>marvinjakobs.com, 2023</p>
                 <br />
                 <br />
                 <br />
@@ -96,80 +100,3 @@ const Credits: React.FC<CreditsProps> = (props) => {
                             animate={{ opacity: 1, y: -20 }}
                             transition={{ duration: 0.5 }}
                             key={`section-${CREDITS[currentSlide].title}`}
-                            style={styles.section}
-                        >
-                            <h3 style={styles.sectionTitle}>
-                                {CREDITS[currentSlide].title}
-                            </h3>
-                            {CREDITS[currentSlide].rows.map((row, i) => {
-                                return (
-                                    <div key={`row-${i}`} style={styles.row}>
-                                        <p>{row[0]}</p>
-                                        <p>{row[1]}</p>
-                                    </div>
-                                );
-                            })}
-                        </motion.div>
-                    }
-                </div>
-                <p>Click to continue...</p>
-                <br />
-                <div style={styles.nextSlideTimer}>
-                    {/* make a time number of dots */}
-                    {Array.from(Array(time)).map((i) => {
-                        return (
-                            <div key={i}>
-                                <p>.</p>
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-        </Window>
-    );
-};
-
-const styles: StyleSheetCSS = {
-    credits: {
-        width: '100%',
-        backgroundColor: 'black',
-        paddingTop: 64,
-        flexDirection: 'column',
-        alignItems: 'center',
-        paddingBottom: 64,
-        color: 'white',
-        overflow: 'hidden',
-    },
-    row: {
-        overflow: 'none',
-        justifyContent: 'space-between',
-        flexDirection: 'row',
-        width: 600,
-        alignSelf: 'center',
-    },
-    section: {
-        overflow: 'none',
-        alignItems: 'center',
-        flexDirection: 'column',
-        marginBottom: 32,
-        opacity: 0,
-    },
-    sectionTitle: {
-        marginBottom: 32,
-    },
-    slideContainer: {
-        width: '100%',
-        height: '70%',
-        justifyContent: 'center',
-        alignItems: 'center',
-        cursor: 'pointer',
-    },
-    nextSlideTimer: {
-        width: 64,
-        height: 32,
-        justifyContent: 'space-evenly',
-        alignItems: 'center',
-    },
-};
-
-export default Credits;

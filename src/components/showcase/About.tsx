@@ -12,23 +12,22 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Marvin Jakobs</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    In May of 2024 I graduated from The Pennsylvania State University
+                    with my BS in Applied Data Science.
                 </p>
                 <br />
                 <p>
-                    Thank you for taking the time to check out my portfolio. I
+                    Thanks for taking the time to check out my portfolio. I
                     really hope you enjoy exploring it as much as I enjoyed
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:marv416@gmail.com">
+                        marv416@gmail.com
                     </a>
                 </p>
             </div>
@@ -37,14 +36,7 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    From a young age, I was captivated by computers, especially through my love for video games like Minecraft. This early interest fueled my passion for technology and building digital worlds. I attended high school in New Orleans, where my fascination with computers deepened, and later moved to a location just outside of Philadelphia to continue my journey in technology.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -58,32 +50,11 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                In high school, I began to take programming more seriously, diving into the world of iOS app development and learning how to scrape tweets using Python. I worked on a variety of passion projects during this time, which allowed me to refine my skills in both mobile app development and data scraping. These experiences played a crucial role in shaping my journey in technology.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                In 2020, I was excited to be accepted into Penn State to study Data Sciences. After my freshman year, I participated in summer research focused on wildlife trade data analysis. During my sophomore year, I interned remotely as a Blockchain Intern for the Save the Martians NFT project and later joined Cencora (formerly AmerisourceBergen) as a CRM Intern, where I gained experience with Salesforce. I also had the opportunity to study abroad in Dubrovnik, Croatia. As I entered my senior year, I decided to concentrate on capstone projects and other academic pursuits that aligned with my career goals.
                 </p>
                 <br />
                 <br />
@@ -99,24 +70,18 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
+                            Beyond programming, I have a lot of hobbies that I
                             enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
+                            <Link to="/projects/music">AI Chatbots</Link>{' '}
                             and creating{' '}
                             <Link to="/projects/art">Digital Art</Link>. You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
+                            enjoy are skateboarding, cooking, and (unsurprisingly)
                             playing video games.
                         </p>
                         <br />
-                        <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
-                        </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
@@ -137,9 +102,9 @@ const About: React.FC<AboutProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://twitter.com/jakobsmarvin"
                     >
-                        @henryheffernan
+                        @JakobsMarvin
                     </a>{' '}
                     Good luck and have fun!
                 </p>

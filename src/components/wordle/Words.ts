@@ -314,6 +314,7 @@ const WORDS = [
     'drove',
     'cabin',
     'boats',
+    'quami',
     'towns',
     'proud',
     'court',

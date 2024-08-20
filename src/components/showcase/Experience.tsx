@@ -29,7 +29,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    During my internship at Cencora, I collaborated with the IT team to export and document metadata and UI/UX for various permission sets in production. I also provided suggestions for field and flow updates, enhancing the overall efficiency of the CRM system.
+                    At Cencora, I collaborated with the IT team to export and document metadata and UI/UX for various permission sets in production. I also suggested field and flow updates, enhancing the CRM system's efficiency and user experience.
                 </p>
                 <br />
                 <ul>
@@ -40,7 +40,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Documented and streamlined processes for multiple permission sets, ensuring better system maintenance and user experience.
+                            Streamlined processes for multiple permission sets, improving system maintenance.
                         </p>
                     </li>
                 </ul>
@@ -67,7 +67,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    As a Blockchain Intern, I was involved in developing and maintaining bots, providing cross-chain support, and contributing to web development efforts. My role required close collaboration with a global team to create an NFT project with unique utility.
+                    As a Blockchain Intern, I developed and maintained bots, provided cross-chain support, and contributed to web development efforts. My role involved collaborating with a global team to create an NFT project with unique utility.
                 </p>
                 <br />
                 <ul>
@@ -78,7 +78,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Played a key role in web development, enhancing the platform’s user experience.
+                            Enhanced the platform’s user experience through web development.
                         </p>
                     </li>
                 </ul>
@@ -98,18 +98,18 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    I conducted research on anomalies in global wildlife trade using Python tools. The project involved data cleaning, spatial clustering, and pattern recognition to understand the activities of poachers and illegal traders.
+                    I conducted research on anomalies in global wildlife trade using Python tools. The project involved data cleaning, spatial clustering, and pattern recognition to understand poaching and illegal trading activities.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Analyzed wildlife trade data to identify trends and patterns, contributing to global wildlife conservation efforts.
+                            Analyzed wildlife trade data to identify trends and patterns, contributing to global conservation efforts.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Developed spatial clustering models to detect illegal activities, aiding in the creation of preventive measures.
+                            Developed spatial clustering models to detect illegal activities, aiding in preventive measures.
                         </p>
                     </li>
                 </ul>
@@ -129,7 +129,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    As a freelance app developer, I designed and developed both iOS and Android apps. I utilized Unity with C# for Amazon apps and XCode with C++ for iOS. Several of my apps were successfully auctioned on Flippa, and I leveraged Google AdSense and Instagram ads for marketing.
+                    As a freelance app developer, I designed and developed iOS and Android apps. I used Unity with C# for Amazon apps and XCode with C++ for iOS, successfully auctioning several apps on Flippa.
                 </p>
                 <br />
                 <ul>
@@ -140,7 +140,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Achieved success in app auctions, demonstrating strong entrepreneurial skills and understanding of the mobile market.
+                            Successfully auctioned apps, demonstrating strong entrepreneurial skills.
                         </p>
                     </li>
                 </ul>
@@ -149,7 +149,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
     );
 };
 
-const styles = {
+const styles: StyleSheetCSS = {
     header: {
         flexDirection: 'column',
         justifyContent: 'space-between',

@@ -31,7 +31,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 <img src={"https://s11.gifyu.com/images/SAgnN.gif"} alt="CloudyAI Screenshot" />
                 <p>
                     <sub>
-                        <b>Figure 1:</b> Screenshot of the Cloudy's chatbot interface.
+                        <b>Figure 1:</b> Cloudy's chatbot interface.
                     </sub>
                 </p>
             </div>

@@ -24,14 +24,14 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             </p>
             <br />
             <p>
-                One of the key features of CloudyAI is its ability to be context-trained. This means that it can maintain context over the course of a conversation, providing more accurate and relevant responses. I designed and deployed the website (<a href="https://cloudyai.fun" target="_blank" rel="noreferrer">cloudyai.fun</a>) to enable users to interact with CloudyAI directly.
+                One of the key features of CloudyAI is its ability to be context-trained. This means that it can maintain context over the course of a conversation, providing more accurate and relevant responses. I designed and deployed the website (<a href="https://cloudyai.fun" target="_blank" rel="noreferrer">cloudyai.fun</a>) to enable users to talk to Cloudy directly for free.
             </p>
             <br />
             <div className="captioned-image">
-                <img src={"https://s11.gifyu.com/images/SAg7s.gif"} alt="CloudyAI Screenshot" />
+                <img src={"https://s11.gifyu.com/images/SAgnN.gif"} alt="CloudyAI Screenshot" />
                 <p>
                     <sub>
-                        <b>Figure 1:</b> Screenshot of the CloudyAI chatbot interface.
+                        <b>Figure 1:</b> Screenshot of the Cloudy's chatbot interface.
                     </sub>
                 </p>
             </div>

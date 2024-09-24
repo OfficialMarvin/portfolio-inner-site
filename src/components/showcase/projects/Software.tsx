@@ -26,7 +26,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={"https://s1.gifyu.com/images/SAgmE.gif"} />
+                    <src={"https://s1.gifyu.com/images/SAgmE.gif"} />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 1:</b> Visualization of the Ocean Trash Detection system in action.

@@ -70,7 +70,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 <img src={"https://s11.gifyu.com/images/SAgIe.gif"} alt="SixtyFours Artwork" />
                 <p>
                     <sub>
-                        <b>Figure 2:</b> Example of a 64x64 pixel abstract SVG art piece from the SixtyFours collection.
+                        <b>Figure 2:</b> Generating SixtyFours example.
                     </sub>
                 </p>
             </div>

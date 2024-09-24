@@ -17,7 +17,7 @@ const About: React.FC<AboutProps> = (props) => {
             <div className="text-block">
                 <p>
                     In May of 2024 I graduated from The Pennsylvania State University
-                    with my BS in Applied Data Science.
+                    with my BS in Applied Data Sciences.
                 </p>
                 <br />
                 <p>
@@ -36,11 +36,11 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I was captivated by computers, especially through my love for video games like Minecraft. This early interest fueled my passion for technology and building digital worlds. I attended high school in New Orleans, where my fascination with computers deepened, and later moved to a location just outside of Philadelphia to continue my journey in technology.
+                    From a young age, I was captivated by computers, especially through my love for video games like Minecraft. This early interest fueled my passion for technology and its possibilities. I attended high school in New Orleans, where my fascination with computers deepened, and later moved to a location just outside of Philadelphia to continue my journey in technology.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <img src={me} style={styles.image} alt="" />
+                    <img src={"https://s11.gifyu.com/images/SAg9S.gif"} style={styles.image} alt="" />
                     <p>
                         <sub>
                             <b>Figure 1:</b> A real photo of me developing this

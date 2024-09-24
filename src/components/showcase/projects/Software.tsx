@@ -1,10 +1,5 @@
 import React from 'react';
 // @ts-ignore
-import saga from '../../../assets/pictures/projects/software/saga.mp4';
-// @ts-ignore
-import computer from '../../../assets/pictures/projects/software/computer.mp4';
-// @ts-ignore
-import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
@@ -17,54 +12,29 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <h3>Projects</h3>
             <br />
             <p>
-                Below are some of my favorite software projects I have worked on
+                Below are some of my favorite data science projects I have worked on
                 over the last few years.
             </p>
             <br />
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>Ocean Trash Detection</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
-                    website you are on right now. This project was an absolute
-                    joy to make and challenged me both technically and
-                    creatively. Early in 2022, I knew I wanted to make an
-                    interactive portfolio to aid my job search. I eventually got
-                    the idea for this site around early February and began
-                    development early March. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
-                    pretty much done!
+                    Ocean Trash Detection is a machine learning system I developed to detect marine pollution using satellite imagery. I utilized Sentinel-2 and Landsat-8 satellite images and implemented Convolutional Neural Network models like ResNet50 to analyze and detect areas with significant pollution levels. To enhance detection capabilities, I integrated Hugging Face APIs. Additionally, I implemented a web-based visualization platform to present the findings in an accessible and interactive manner.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={computer} />
+                    <VideoAsset src={"https://s1.gifyu.com/images/SAgmE.gif"} />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 1:</b> Blender Scene of the 3D website.
-                            The scene from Blender was baked and exported in a
-                            GLTF format.
+                            <b>Figure 1:</b> Visualization of the Ocean Trash Detection system in action.
                         </sub>
                     </p>
                 </div>
                 <p>
-                    Now, a quick technical breakdown of the site. The website is
-                    split into two parts, the 3D site, and the 2D OS site. The
-                    3D site uses Three.js to render the scene and renders the 2D
-                    site inside of it using an iframe. The 2D OS site is a
-                    simple react site that is hosted{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://henryheffernan.vercel.app/"
-                    >
-                        here
-                    </a>{' '}
-                    and works as a standalone web app. The actual rendering of
-                    the 2D site is accomplished using a CSS renderer provided by
-                    Three.js that transforms the html of the 2D site with 3D CSS
-                    transforms to give the illusion of three dimensionality.
+                    This project was significant to me as it combined my passion for environmental conservation with data science and machine learning. One of the key challenges was processing and handling the large volume of satellite imagery data. I had to implement efficient data preprocessing techniques to ensure the models could be trained effectively. The project also required fine-tuning the CNN models to improve detection accuracy, which involved experimenting with different architectures and hyperparameters.
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -73,169 +43,35 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="https://github.com/OfficialMarvin/ml-Ocean-Trash-Detection/"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://henryheffernan.vercel.app/"
-                        >
-                            <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/portfolio-website"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - 3D Site Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - OS Site Repository
+                                <b>[GitHub]</b> - Ocean Trash Detection Repository
                             </p>
                         </a>
                     </li>
                 </ul>
                 <p>
-                    I'm skipping over a lot of details in exchange for brevity,
-                    but I do plan on doing a more in depth breakdown for those
-                    interested sometime in the future. To get updates with that
-                    project feel free to follow me on twitter{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://twitter.com/henryheffernan"
-                    >
-                        @henryheffernan
-                    </a>
+                    Through this project, I gained valuable experience in handling geospatial data and implementing deep learning models for environmental applications. It reinforced my belief in the power of technology to address global challenges.
                 </p>
             </div>
             <div className="text-block">
-                <h2>Guntattchment Saga The Sequel</h2>
+                <h2>Blockchain Battleship</h2>
                 <br />
                 <p>
-                    Guntattchment Saga or GSTS is a game I made with my good
-                    friend Scott Bass back in 2019. The game is a wave based top
-                    down shooter where you progress by building the most
-                    outrageous of weapons through attaching as many attachments
-                    on your weapon as you can. The game ceased development in
-                    2019 because we unfortunately both had packed school
-                    schedules and were unable to find the time to work on it.
+                    Blockchain Battleship is a decentralized game I developed on the Ethereum blockchain. The game replicates the classic Battleship game but leverages blockchain technology to ensure transparency and fairness. I wrote smart contracts in Solidity to handle game logic and state management. The game features real-time messaging and gameplay mechanics, providing an interactive experience for players. I focused heavily on smart contract security to prevent cheating and ensure reliable gameplay. For the frontend interaction, I used JavaScript and integrated Web3.js to communicate with the Ethereum network.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={saga} />
-                    <div style={styles.caption}>
-                        <p>
-                            <sub>
-                                <b>Figure 2: </b> Guntattchment Saga Gameplay
-                                demo, featuring the main character along with a
-                                few of our grunt and dasher enemies.
-                            </sub>
-                        </p>
-                    </div>
-                </div>
-                <p>
-                    Guntattchment Saga was a really fun project to work on and
-                    had a multitude of challenges. An interesting challenge that
-                    you may not even notice was the rotation of objects such as
-                    the players weapon. Rotating pixel art is a very difficult
-                    thing to do because in the world of pixels you are dealing
-                    with such a little amount of information. Even a single
-                    misplaced pixel can cause a sprite to read in a totally
-                    different and unintended way. To deal with this we developed
-                    an algorithm to prioritize outlines, while rotating the
-                    insides with a simple Nearest Neighbor algorithm. Doing so
-                    resulted in a relatively readable sprite when rotating
-                    sprites. It was a surprisingly difficult challenge as it
-                    intersected both art and programming, but was fun to work on
-                    overall.
-                </p>
-                <br />
-                <h3>Links:</h3>
-                <ul>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/scottbass47/gsts"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Unity Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/gsts_assets"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Assets Repository
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                <p>
-                    Unfortunately, the game currently is not in a releasable
-                    state and so there is no demo available online. If this ever
-                    changes, however, a link to the game will be added here.
-                </p>
-            </div>
-            <div className="text-block">
-                <h2>Skip the Scroll</h2>
-                <br />
-                <p>
-                    While working at Hover, I spent a lot of time on GitHub
-                    issue pages looking for answers and solutions to problems I
-                    had run into. I would always find myself sifting though the
-                    comments trying to find the right answer, which usually had
-                    the most upvotes and positive reactions. With that
-                    information, I decided to create a very simple chrome
-                    extension that would sift through all the comments on the
-                    page, sort them by positive reactions, and then allow you to
-                    traverse them from most positive reactions to least positive
-                    reactions.
-                </p>
-                <br />
-                <div className="captioned-image">
-                    <VideoAsset src={scroll} />
+                    <img src={"https://i.ibb.co/wpbk0zT/Fv-Ix9haa-QAIP-g-B.jpg"} alt="Blockchain Battleship Screenshot" style={styles.image} />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b> Skip the Scroll in action, finding
-                            the highest rated comments and scrolling right to
-                            them
+                            <b>Figure 2:</b> Screenshot of the Blockchain Battleship game interface.
                         </sub>
                     </p>
                 </div>
                 <p>
-                    The extension is open source and currently released on the
-                    Chrome web store. Skip the Scroll is obviously not a project
-                    with massive scope, but was fun to make and dive into the
-                    world of browser extensions. I wanted to showcase since it's
-                    a developer tool and I wanna give it some visibility for
-                    those who might find it useful.
+                    Developing Blockchain Battleship was an exciting venture into the world of decentralized applications (dApps). One of the main challenges was ensuring that the game logic executed correctly on-chain while minimizing gas costs for transactions. I also had to address the issue of maintaining game state in a secure and efficient manner. This project deepened my understanding of blockchain technology, smart contracts, and the potential of decentralized gaming.
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -244,32 +80,74 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/skip-the-scroll"
+                            href="https://github.com/OfficialMarvin/BlockchainBattleship"
                         >
                             <p>
-                                <b>[GitHub]</b> - Skip the Scroll Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://chrome.google.com/webstore/detail/skip-the-scroll/mfehannpjmgfagldoilpngeoecdfgmnd"
-                        >
-                            <p>
-                                <b>[Chrome Web Store]</b> - Skip the Scroll
+                                <b>[GitHub]</b> - Blockchain Battleship Repository
                             </p>
                         </a>
                     </li>
                 </ul>
                 <p>
-                    If you are a developer and have also found yourself
-                    scrolling through github comment after github comment saying
-                    "i also have this problem...", then I highly recommend you
-                    check out Skip the Scroll to save you some of your precious
-                    time. If you like it, feel free to star it on GitHub and
-                    rate it on the Chrome web store.
+                    The project showcases how traditional games can be transformed using blockchain technology, offering new possibilities for fairness and transparency in gaming.
+                </p>
+            </div>
+            <div className="text-block">
+                <h2>Stock Trend Prediction</h2>
+                <br />
+                <p>
+                    The Stock Trend Prediction project involved utilizing sentiment analysis on Twitter data combined with historical stock data to predict stock market trends. I collected tweets related to specific stocks and performed sentiment analysis using the VADER (Valence Aware Dictionary and sEntiment Reasoner) model. By integrating this sentiment data with historical stock prices, I trained machine learning models to predict future stock movements. I implemented data processing and machine learning models in Databricks, achieving a model accuracy of 51%.
+                </p>
+                <br />
+                <p>
+                    This project was a deep dive into natural language processing and its application in financial markets. One of the challenges was handling the noisy and unstructured nature of social media data. Cleaning and preprocessing the tweets were crucial steps to ensure the sentiment analysis was accurate. While the model's accuracy surpassed random guessing, it highlighted the complexities and unpredictable nature of the stock market, emphasizing that even with sophisticated models, predicting stock trends remains a challenging task.
+                </p>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/OfficialMarvin/Sentimental-and-Historical-Stock-Analysis"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - Stock Trend Prediction Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    This project enhanced my skills in data science, particularly in sentiment analysis and integrating disparate data sources for predictive modeling.
+                </p>
+            </div>
+            <div className="text-block">
+                <h2>Brain Tumor Classification</h2>
+                <br />
+                <p>
+                    In the Brain Tumor Classification project, I developed machine learning models to grade gliomas using imaging and genomic data. The goal was to assist in the early detection and classification of brain tumors to improve treatment outcomes. I used datasets from the UC Irvine Machine Learning Repository and The Cancer Genome Atlas (TCGA). I tested various algorithms, including Support Vector Machines (SVM), Random Forests, and neural networks, to determine which provided the best accuracy. Emphasis was placed on algorithm selection, feature engineering, and model optimization.
+                </p>
+                <br />
+                <p>
+                    One of the primary challenges was handling high-dimensional genomic data and ensuring the models were not overfitting. I implemented cross-validation techniques and feature selection methods to improve model generalization. This project provided valuable insights into biomedical data analysis and the application of machine learning in healthcare.
+                </p>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/OfficialMarvin/PredictBrainTumor"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - Brain Tumor Classification Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    This experience solidified my interest in using data science for impactful real-world applications, particularly in the medical field.
                 </p>
             </div>
             <ResumeDownload />
@@ -279,6 +157,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
 
 const styles: StyleSheetCSS = {
     video: {
+        width: '100%',
+        padding: 12,
+    },
+    image: {
         width: '100%',
         padding: 12,
     },

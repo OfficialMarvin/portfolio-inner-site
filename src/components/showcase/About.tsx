@@ -24,8 +24,7 @@ const About: React.FC<AboutProps> = (props) => {
                     Thanks for taking the time to check out my portfolio. I
                     really hope you enjoy exploring it as much as I enjoyed
                     building it. If you have any questions or comments, feel
-                    free to contact me using{' '}
-                    <Link to="/contact">this form</Link> or shoot me an email at{' '}
+                    free to shoot me an email at{' '}
                     <a href="mailto:marv416@gmail.com">
                         marv416@gmail.com
                     </a>
@@ -43,8 +42,7 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={"https://s11.gifyu.com/images/SAg9S.gif"} style={styles.image} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> A real photo of me developing this
-                            website :)
+                            <b>Figure 1:</b> Reading my first Data Structures book in 2008 :)
                         </sub>
                     </p>
                 </div>
@@ -70,12 +68,12 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond programming, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
+                            Beyond Programming, I have a lot of hobbies that I
+                            enjoy doing in my free time. The more technical
                             hobbies I have are{' '}
-                            <Link to="/projects/music">AI Chatbots</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
+                            <Link to="/projects/music">generative AI</Link>{' '}
+                            and {' '}
+                            <Link to="/projects/art">On-chain Art</Link>. You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
                             enjoy are skateboarding, cooking, and (unsurprisingly)
@@ -84,10 +82,10 @@ const About: React.FC<AboutProps> = (props) => {
                         <br />
                     </div>
                     <div style={styles.verticalImage}>
-                        <img src={meNow} style={styles.image} alt="" />
+                        <img src={"https://i.ibb.co/tCvhCWJ/Screenshot-2024-09-24-at-3-18-12-PM.png"} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Studying Abroad in Croatia, 2023
                             </sub>
                         </p>
                     </div>

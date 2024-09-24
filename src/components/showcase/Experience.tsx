@@ -10,7 +10,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Cencora (formerly AmerisourceBergen)</h1>
+                        <h1>Cencora</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
@@ -52,9 +52,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://savemartians.com/'}
+                            href={'https://x.com/savemartiansnft'}
                         >
-                            <h4>www.savemartians.com</h4>
+                            <h4>x.com/savemartiansnft</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
@@ -67,13 +67,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    As a Blockchain Intern, I developed and maintained bots, provided cross-chain support, and contributed to web development efforts. My role involved collaborating with a global team to create an NFT project with unique utility.
+                    As a Blockchain Intern, I automated and maintained JavaScript bots that read data from the blockchain and provided real-time alerts. Provided technical support and integration for the ImmutableX chain, and conducted front-end web development.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Automated and maintained bots to support NFT operations, improving efficiency and reliability.
+                            Automated and maintained bots to support operations, improving efficiency and reliability.
                         </p>
                     </li>
                     <li>

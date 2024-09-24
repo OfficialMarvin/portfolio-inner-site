@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
-// @ts-ignore
-import house from '../../../assets/audio/house_master.mp3';
-// @ts-ignore
-import edge from '../../../assets/audio/edge_unmastered.mp3';
-// @ts-ignore
-import dnb from '../../../assets/audio/break.mp3';
-// @ts-ignore
-import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
-import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
-import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
-import { MusicPlayer } from '../../general';
+
 
 export interface MusicProjectsProps {}
 
@@ -18,201 +8,94 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 
     return (
         <div className="site-page-content">
-            <h1>Music & Sound</h1>
-            <h3>Ventures</h3>
+            <h1>Generative AI</h1>
+            <h3>Projects</h3>
             <br />
             <div className="text-block">
                 <p>
-                    Music has been a passion of mine for my whole life. When I
-                    was 15 years old, I downloaded FL Studio and started to
-                    produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction and in 2016 created the now
-                    popular discord server EDM Production with over 14k members.
-                </p>
-                <br />
-                <p>
-                    I don't release the music that I make publicly as I not only
-                    find it difficult to finish songs, but also it's not a
-                    priority of mine since I produce mostly because I enjoy the
-                    process of learning and creating. However if I am going to
-                    dedicate a whole page of my portfolio to my music, you bet
-                    I'll have some examples to showoff.
-                </p>
-                <br />
-                <p>
-                    Below are some more recent Musical Endeavors I've been
-                    working on. I hope you enjoy the music and enjoy the stories
-                    behind each of the tracks.
+                    Over the past couple years, I have been involved in developing projects that leverage Generative AI technologies. Below are two of my favorite projects in this domain.
                 </p>
             </div>
-            <h2>Exploring house</h2>
+            <br />
+            <h2>CloudyAI</h2>
             <br />
             <p>
-                In 2020 I went through a phase of really enjoying house. Some of
-                my favorite artists at the time were Malaa, Chirs Lake, Kyle
-                Walker and many more. Inspired, I decided to take a stab at
-                making some house tracks.
+                CloudyAI is a chatbot platform I developed using TypeScript, Tailwind CSS, and Vercel. The aim was to create a conversational AI that could provide concise and context-aware responses to users. By integrating the OpenAI API, I enhanced the chatbot's functionality, allowing it to understand and respond to a wide range of queries effectively.
             </p>
             <br />
             <p>
-                I failed a few times as I wasn't really able to nail the style
-                and groove I was going for but ultimately ended up creating the
-                piece below.
+                One of the key features of CloudyAI is its ability to be context-trained. This means that it can maintain context over the course of a conversation, providing more accurate and relevant responses. I designed and deployed the website (<a href="https://cloudyai.fun" target="_blank" rel="noreferrer">cloudyai.fun</a>) to enable users to interact with CloudyAI directly.
             </p>
-            <br />
-
-            <MusicPlayer
-                src={house}
-                title="Timeless"
-                subtitle="Henry Heffernan - 2022"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
-
-            <br />
             <br />
             <div className="captioned-image">
-                <img src={houseProject} alt="" />
+                <img src={"https://s11.gifyu.com/images/SAg7s.gif"} alt="CloudyAI Screenshot" />
                 <p>
                     <sub>
-                        <b>Figure 1:</b> A screenshot of the project file of
-                        Timeless. 64 tracks in total.
-                    </sub>
-                </p>
-            </div>
-            <p>
-                I love so much about this track. I'm particularly very proud of
-                the composition and the trichotomy of the happy upbeat energy in
-                the intro and first drop, into the rich and euphoric bridge,
-                before delving into the darkness of the final build and drop. I
-                had an absolute blast making this back in the fall of 2020, and
-                every time I revisit it to tweak it just a little more, I have
-                so much fun.
-            </p>
-            <br />
-            <p>
-                After making this track around fall 2020, my interest for house
-                overall was tapering off. Around this time I was starting to go
-                to the gym more consistently and ended up listening to a lot
-                more hard bass music, specifically drum & bass, mid tempo and of
-                course dubstep.
-            </p>
-            <br />
-            <h2>Mid-Tempo?</h2>
-            <br />
-            <p>
-                Only about a month after taking a step away from house I started
-                working on a mid-tempo track which I called edge. I did a lot of
-                experimenting with this track, and to this day I'm very proud
-                with how it turned out. I never got around to finishing it up
-                and giving it a proper outro, but I'm still very happy with it's
-                current state.
-            </p>
-            <br />
-            <MusicPlayer
-                src={edge}
-                title="Edge [W.I.P.]"
-                subtitle="Henry Heffernan - 2021"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
-            <br />
-            <p>
-                This track is so dark and I love it! The bass and percussion are
-                the obvious stars of the piece, and I had a blast designing each
-                of them. The bass in this song is layered with a lot of textures
-                and they really give it a lot of the character it needs to be
-                the driving force of the track. The percussion on the other hand
-                gives the track a lot of depth in the high end so when
-                juxtaposed with the bass it radiates this dark and mysterious
-                vibe.
-            </p>
-            <br />
-            <h2>My love for Drum & Bass</h2>
-            <br />
-            <p>
-                I've always loved drum & bass, and over the years I feel like I
-                always come back to it. My first song I ever made was a DnB
-                track and as I've continued to make music over these last few
-                years the way I produce DnB really reflects my specific taste at
-                that time. It's very fun looking back at the various DnB styles
-                I've taken stabs at over time and how my taste has evolved.
-            </p>
-            <br />
-            <p>
-                The track below is a snip-it from a DnB track I started work on
-                back in 2019. I recently decided to pick it up again and work on
-                it more because I loved the idea, bassline and especially the
-                drums. Below is a short demo of the track including a small
-                buildup and drop.
-            </p>
-            <br />
-            <MusicPlayer
-                src={dnb}
-                title="Break [Demo]"
-                subtitle="Henry Heffernan - 2019/2022"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
-            <br />
-            <p>
-                Like I said, I decided to come back to this track because I
-                absolutely loved so much about it. When I picked up work on it
-                again I decided to totally remix the drums and I'm super proud
-                with how they turned out. So proud in fact, I wanted to show
-                them off some more on their own! Below are the drums in the
-                above track, but isolated. I have also included the sub bass
-                because it is drum and bass after all!
-            </p>
-            <br />
-            <MusicPlayer
-                src={dnbDrums}
-                title="Break [Drums and Sub]"
-                subtitle="Henry Heffernan - 2019/2022"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
-            <br />
-            <div className="captioned-image">
-                <img src={dnbDrumsProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> Drums and sub for the track Break. See
-                        if you can follow along in the image as the audio above
-                        plays!
+                        <b>Figure 1:</b> Screenshot of the CloudyAI chatbot interface.
                     </sub>
                 </p>
             </div>
             <br />
             <p>
-                There are a lot of layers to DnB drums, and I honestly find them
-                the hardest to mix and get right since the sound design of DnB
-                so often wants to fight in the same frequency range as the
-                drums. Because of this I use very aggressive sidechain to keep
-                the drums clear while giving me the freedom to not have to
-                overly eq the bass and general sound design. I also find that
-                parallel compression on drums in DnB can be an absolute life
-                saver to keep the drums controlled but still hard hitting.
+                Developing CloudyAI was an exciting challenge. Integrating the OpenAI API required careful handling of API requests and responses to ensure that the chatbot operated smoothly. I also focused on creating an intuitive and user-friendly interface using Tailwind CSS, making the chatbot accessible to a broad audience.
             </p>
             <br />
-            <h2>The Future of my music</h2>
+            <h3>Links:</h3>
+            <ul>
+                <li>
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://cloudyai.fun"
+                    >
+                        <p>
+                            <b>[Website]</b> - cloudyai.fun
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <br />
+            <h2>SixtyFours</h2>
             <br />
             <p>
-                I love to make music and will continue to make music as long as
-                I can. I think soon enough I will be releasing music publicly
-                since I feel like my personal style has slowly developed into
-                something I am proud of over these last few years. I also want
-                to one day make an album, but that is a long ways away.
+                SixtyFours is a unique project where I combined Generative AI with blockchain technology. The project involves generating 64x64 pixel abstract SVG art pieces using a Large Language Model (LLM) API. These art pieces are then encoded into base64 and stored on the Ethereum mainnet.
             </p>
             <br />
             <p>
-                I am aware this section of my portfolio is rather short, but
-                it's because I am very selective with what I want to show off to
-                the world. I've been producing for over 6 years and have made
-                hundreds maybe even a thousand tracks/loops in that time. I only
-                recently have been feeling very content with the stuff I've made
-                and I'm very excited to see what I can do for the future. Thanks
-                for listening I hope you enjoyed!
+                The 64s are AI-created SVG pieces that are not just stored on the blockchain but are also a form of digital art collection. Each piece is generated through an API call to an LLM, which produces the abstract SVG/XML art. By encoding the artwork into base64, I ensured that the entire piece could be stored on-chain, preserving its integrity and ownership.
+            </p>
+            <br />
+            {/* Placeholder for media */}
+            <div className="captioned-image">
+                <img src={"https://s11.gifyu.com/images/SAgIe.gif"} alt="SixtyFours Artwork" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Example of a 64x64 pixel abstract SVG art piece from the SixtyFours collection.
+                    </sub>
+                </p>
+            </div>
+            <br />
+            <p>
+                This project was an exploration into the possibilities of combining AI-generated content with decentralized technologies. It presented several challenges, including efficiently generating and encoding the SVG art and interacting with the Ethereum blockchain to store the data securely. The result is a series of unique, AI-generated art pieces that exist entirely on the blockchain.
+            </p>
+            <br />
+            <h3>Links:</h3>
+            <ul>
+                <li>
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://github.com/OfficialMarvin/64gen"
+                    >
+                        <p>
+                            <b>[GitHub]</b> - SixtyFours Repository
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <br />
+            <p>
+                Through SixtyFours, I aimed to demonstrate how AI and blockchain can intersect to create new forms of digital assets and art. It was a rewarding project that pushed the boundaries of conventional applications of these technologies.
             </p>
             <br />
         </div>

@@ -73,15 +73,14 @@ const Projects: React.FC<ProjectsProps> = (props) => {
             <p>
                 Click on one of the areas below to check out some of my favorite
                 projects I've done in that field. I spent a lot of time to
-                include a lot of visuals and interactive media to showcase each
-                project. Enjoy!
+                include a lot of visuals and interactive media to showcase them. Enjoy!
             </p>
             <br />
             <div style={styles.projectLinksContainer}>
                 <ProjectBox
                     icon={software}
                     iconStyle={styles.computerIcon}
-                    title="Software"
+                    title="Data Science"
                     subtitle="PROJECTS"
                     route="software"
                 />

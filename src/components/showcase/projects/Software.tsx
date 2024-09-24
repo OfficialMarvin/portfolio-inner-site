@@ -8,7 +8,7 @@ export interface SoftwareProjectsProps {}
 const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Software</h1>
+            <h1>Data Science</h1>
             <h3>Projects</h3>
             <br />
             <p>

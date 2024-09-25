@@ -10,18 +10,18 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    My passion for art extends beyond traditional mediums into the realm of blockchain technology. I am fascinated by the novelty and technicality of effectively storing art data on-chain, utilizing the Ethereum Virtual Machine (EVM) as a dynamic variable in the art itself. This intersection of art and technology opens up new possibilities for how we create, own, and interact with art.
+                    My passion for art isn't confined to traditional mediums—it expands into the revolutionary space where art meets blockchain technology. The idea of art as more than just a static experience fascinates me, and on-chain NFTs are at the heart of this transformation. By leveraging the Ethereum Virtual Machine (EVM), we can encode art directly into the blockchain itself, making the art dynamic, interactive, and immutable. This fusion of creativity and code doesn’t just challenge how we create, own, and share art—it redefines it entirely.
                 </p>
                 <br />
                 <p>
-                    Below are some of my favorite on-chain NFT projects that highlight different aspects of this innovative space.
+                    Below, I’ve highlighted some innovative fully on-chain projects that exemplify the limitless potential of this space. These projects don’t just reside on the blockchain—they live, evolve, and grow within it.
                 </p>
             </div>
             <div className="text-block">
                 <h2>Crypto Coaster</h2>
                 <br />
                 <p>
-                    Crypto Coaster is a collection of 2,000 randomly generated 3D roller coasters, stored entirely on-chain. It's an experimental, VR-compatible 3D NFT project that showcases the potential of on-chain 3D assets. Each coaster provides a unique experience; some tracks feel fast, some slow, and others are just insane. The ability to generate complex 3D models and store them on the Ethereum blockchain demonstrates advancements in smart contract capabilities and data storage optimization.
+                    Crypto Coaster is a collection of randomly generated 3D roller coasters, stored entirely on-chain. It's an experimental, VR-compatible 3D NFT project that showcases the potential of on-chain 3D assets. Each coaster provides a unique experience; some tracks feel fast, some slow, and others are just insane. The ability to generate complex 3D models and store them on the Ethereum blockchain demonstrates advancements in smart contract capabilities and data storage optimization.
                 </p>
                 <br />
                 <div className="captioned-image">

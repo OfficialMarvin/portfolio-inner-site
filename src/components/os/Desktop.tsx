@@ -33,7 +33,7 @@ const APPLICATIONS: {
     showcase: {
         key: 'showcase',
         name: 'My Showcase',
-        shortcutIcon: 'showcaseIcon',
+        shortcutIcon: 'showcaseIcon2',
         component: ShowcaseExplorer,
     },
     trail: {

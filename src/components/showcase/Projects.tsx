@@ -94,8 +94,8 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                 <ProjectBox
                     icon={art}
                     iconStyle={styles.artIcon}
-                    title="Onchain Art"
-                    subtitle="Collection"
+                    title="On-chain Art"
+                    subtitle="COLLECTION"
                     route="art"
                 />
             </div>

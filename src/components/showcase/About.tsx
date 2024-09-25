@@ -35,7 +35,7 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I was captivated by computers, especially through my love for video games like Minecraft. This early interest fueled my passion for technology and its possibilities. I attended high school in New Orleans, where my fascination with computers deepened, and later moved to a location just outside of Philadelphia to continue my journey in technology.
+                    From a young age, I was captivated by computers, stemming from my love for video games like Minecraft. This early interest fueled my passion for technology and its possibilities. I attended high school in New Orleans, where my fascination with computers deepened, and later moved just outside of Philadelphia to continue my journey in technology.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -48,11 +48,11 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                In high school, I began to take programming more seriously, diving into the world of iOS app development and learning how to scrape tweets using Python. I worked on a variety of passion projects during this time, which allowed me to refine my skills in both mobile app development and data scraping. These experiences played a crucial role in shaping my journey in technology.
+                In high school, I began to take programming seriously, diving into the world of iOS app development and learning how to scrape tweets using Python. I worked on a variety of passion projects during this time, which allowed me to refine my skills in both mobile app development and data scraping. These experiences played a crucial role in shaping my journey in technology.
                 </p>
                 <br />
                 <p>
-                In 2020, I was excited to be accepted into Penn State to study Data Sciences. After my freshman year, I participated in summer research focused on wildlife trade data analysis. During my sophomore year, I interned remotely as a Blockchain Intern for the Save the Martians NFT project and later joined Cencora (formerly AmerisourceBergen) as a CRM Intern, where I gained experience with Salesforce. I also had the opportunity to study abroad in Dubrovnik, Croatia. As I entered my senior year, I decided to concentrate on capstone projects and other academic pursuits that aligned with my career goals.
+                In 2020, I was excited to be accepted into Penn State to study Data Sciences. After my freshman year, I participated in summer research focused on illegal wildlife trade data analysis and co-published "An Analysis of Wildlife Seizure Data Distributions using Spatial Clustering" which was presented at Tanzania Wildlife Research Institution Conference in December 2021. After my sophomore year, I interned remotely as a Blockchain Intern for the Save the Martians NFT project and later joined Cencora (formerly AmerisourceBergen) as a CRM Intern, where I gained experience with Salesforce and refined my SQL. I also had the opportunity to study abroad in Dubrovnik, Croatia. As I entered my senior year, I decided to concentrate on my machine learning capstone projects and other academic pursuits that aligned with my career goals.
                 </p>
                 <br />
                 <br />
@@ -68,7 +68,7 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond Programming, I have a lot of hobbies that I
+                            Beyond Data Science, I have a lot of hobbies that I
                             enjoy doing in my free time. The more technical
                             hobbies I have are{' '}
                             <Link to="/projects/music">generative AI</Link>{' '}
@@ -95,7 +95,7 @@ const About: React.FC<AboutProps> = (props) => {
                 <p>
                     Thanks for reading about me! I hope that you enjoy exploring
                     the rest of my portfolio website and everything it has to
-                    offer. If you find the easter egg make sure to let me know
+                    offer. If you find any easter eggs make sure to let me know
                     on twitter{' '}
                     <a
                         rel="noreferrer"

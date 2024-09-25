@@ -17,7 +17,6 @@ const CREDITS = [
         title: 'Special Thanks',
         rows: [
             ['Victor Chindemi', 'Solidity Code'],
-            ['Mariel Laffan', '<3'],
             ['My Family', 'and Friends'],
         ],
     }

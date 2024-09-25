@@ -9,41 +9,18 @@ const CREDITS = [
     {
         title: 'Engineering & Design',
         rows: [
-                ['Marvin Jakobs', 'Reskin'],
-                ['Henry Heffernan', 'Template']
+                ['Marvin Jakobs', 'Design & Reskin'],
+                ['Henry Heffernan', 'Engineering & Template']
             ],
-    },
-    {
-        title: 'Modeling & Texturing',
-        rows: [
-            ['Henry Heffernan', 'Texturing, Composition, & UV'],
-            ['Mickael Boitte', 'Computer Model'],
-            ['Sean Nicolas', 'Environment Models'],
-        ],
-    },
-    {
-        title: 'Sound Design',
-        rows: [
-            ['Henry Heffernan', 'Mixing, Composition, & Foley'],
-            ['Sound Cassette', 'Office Ambience'],
-            ['Windows 95 Startup Sound', 'Microsoft'],
-        ],
     },
     {
         title: 'Special Thanks',
         rows: [
-            ['Bruno Simon', 'SimonDev'],
-            ['Lorelei Kravinsky', 'Scott Bass'],
-            ['Trey Briccetti', 'Mom, Dad & Angela'],
+            ['Victor Chindemi', 'Solidity Code'],
+            ['Mariel Laffan', '<3'],
+            ['My Family', 'and Friends'],
         ],
-    },
-    {
-        title: 'Inspiration',
-        rows: [
-            ['Bruno Simon', 'Jesse Zhou'],
-            ['Pink Yellow', 'Vivek Patel'],
-        ],
-    },
+    }
 ];
 
 const Credits: React.FC<CreditsProps> = (props) => {
@@ -81,7 +58,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2022 Henry Heffernan'}
+            bottomLeftText={'© Copyright 2024 Marvin Jakobs'}
         >
             <div
                 onMouseDown={nextSlide}
@@ -89,7 +66,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>henryheffernan.com, 2022</p>
+                <p>marvinjakobs.com, 2022</p>
                 <br />
                 <br />
                 <br />

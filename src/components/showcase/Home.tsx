@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = (props) => {
         <div style={styles.page}>
             <div style={styles.header}>
                 <h1 style={styles.name}>Marvin Jakobs</h1>
-                <h2>Data Science & Blockchain</h2>
+                <h2>Data Science</h2>
             </div>
             <div style={styles.buttons}>
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />

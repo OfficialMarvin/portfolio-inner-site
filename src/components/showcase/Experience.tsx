@@ -48,44 +48,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>STM</h1>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={'https://x.com/savemartiansnft'}
-                        >
-                            <h4>x.com/savemartiansnft</h4>
-                        </a>
-                    </div>
-                    <div style={styles.headerRow}>
-                        <h3>Blockchain Intern</h3>
-                        <b>
-                            <p>Fall 2021 - Spring 2022</p>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <div className="text-block">
-                <p>
-                    As a Blockchain Intern, I automated and maintained JavaScript bots that read data from the blockchain and provided real-time alerts. Provided technical support and integration for the ImmutableX chain, and conducted front-end web development.
-                </p>
-                <br />
-                <ul>
-                    <li>
-                        <p>
-                            Automated and maintained bots to support operations, improving efficiency and reliability.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Enhanced the platform’s user experience through web development.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
                         <h1>Penn State</h1>
                     </div>
                     <div style={styles.headerRow}>
